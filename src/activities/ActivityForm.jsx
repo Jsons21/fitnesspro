@@ -18,6 +18,10 @@ export default function ActivityForm() {
     <>
       <h2>Add a new activity</h2>
       <form action={addActivity}>
+        {/* <label>
+          Creator Name
+          <input type="text" name="creatorId" />
+        </label> */}
         <label>
           Name
           <input type="text" name="name" />
